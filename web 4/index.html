@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Flex BOX</title>
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+    <body>
+        <form  action="#" target="_blank">
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <!-- Name Section -->
+                <label for="fname">First Name :</label>
+                <input type="text" id="fname" placeholder="Enter The First Name" list="browsers"  required>
+                <datalist id="browsers">
+                    <option value="Shrey">
+                    <option value="Shubham">
+                    <option value="Priyavardhan">
+                    <option value="Ansh">
+                    <option value="Gauravi">
+                </datalist>
+                <label for="lname">Last Name :</label>
+                <input type="text" id="lname" placeholder="Enter The Last Name" list="browser" required>
+                <datalist id="browser">
+                    <option value="Maheshwari"></option>
+                </datalist>
+                
+  
+
+
+
+                <br><br>
+                <!-- Email Section-->
+                <label for="email">Enter your email :</label>
+                <input type="email" id="email" name="email" size="50">
+
+                <!-- Gender Section -->
+                <br><br>
+
+                Gender :
+                <input type="radio" name="gender" value="male" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label><br><br>
+
+
+                <!-- DropDown Section -->
+                <label for="selector">Choose a car :</label>
+                <select id="selector" multiple>
+                    <optgroup label="Education">
+                        <option value="btech" selected>B.Tech</option>
+                        <option value="mtech">M.Tech</option>
+                    </optgroup>
+                    <optgroup label="College">
+                        <option value="scollege">SKIT College</option>
+                        <option value="pcollege">Poornima College</option>
+                    </optgroup>
+                    
+                </select>
+
+                <!-- Stream (Field Section) Section -->
+                <h5>Choosing Your Branch </h5>
+
+                <input type="checkbox" name="branch" id="cs">
+                <label for="cs">CS </label><br>
+                <input type="checkbox" name="branch" id="it">
+                <label for="it">IT</label><br>
+                <input type="checkbox" name="branch" id="me">
+                <label for="me">ME</label><br>
+                <input type="checkbox" name="branch" id="ece">
+                <label for="ece">ECE</label><br>
+                <input type="checkbox" name="branch" id="ee">
+                <label for="ee">EE</label><br>
+                <input type="checkbox" name="branch" id="ce">
+                <label for="ce">CE</label><br>
+
+                <!-- Photo UPload Section -->
+                <br>
+                
+                    
+                <form enctype="multipart/form-data">
+                    <label for="myfile">Select a file :</label>
+                    <input type="file" id="myfile" multiple>
+                </form>
+                    
+                
+
+                <!-- Submit  Section -->
+                <br><br>
+                <input type="submit" onclick="alert('Submitted')" value="SUBMIT FORM">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
