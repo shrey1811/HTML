@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+.item{
+    
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    
+
+    
+}
+
+.item1{
+    background: red;
+    
+}
+
+.item2{
+    background: green;
+    display: flex;
+    
+
+}
+
+
+.item3{
+    background: blue;
+}
+
+.subitem{
+    background: wheat;
+    flex-grow: 1;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+
+}
+
+/*
+.subitem1{
+    background: red;
+    
+}
+
+.subitem2{
+    background: green;
+}
+
+
+.subitem3{
+    background: blue;
+}*/
