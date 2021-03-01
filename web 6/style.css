@@ -1,0 +1,127 @@
+body{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    background: rgb(73, 104, 13);
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+   
+}
+
+header a{
+    color: white;
+}
+
+#logo{
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu li{
+    padding: 10px;
+}
+
+#social-links  li{
+    padding: 10px;
+}
+
+
+.services-containers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box{
+    border: 1px solid gray;
+    padding: 10px;
+    flex-basis: 32%;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.service-box img{
+    width: 100%;
+
+}
+
+.service-box h3{
+    margin: 5px 0 10px;
+}
+
+.service-box p{
+    margin: 0 0 10px;
+}
+.call-to-action a{
+    background: gray;
+    border: 2px solid transparent;
+    color: white;
+    padding: 8px 13px;
+    display: block;
+
+}
+.call-to-action a:hover{
+    background: transparent;
+    border: 2px solid gray;
+    color: gray;
+}
+
+.call-to-action{
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+#main{
+    display: flex;
+}
+
+aside{
+    flex: 0 0 20vw;
+    background: beige;
+    padding: 10px;
+}
+article{
+    padding: 10px;
+}
+
+footer{
+    background: rgb(73, 104, 13);
+    color: white;
+    text-align: center;
+    padding:18px 0;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul a {
+    color: rgb(73, 104, 13);
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+aside img{
+    width:100%;
+
+}
