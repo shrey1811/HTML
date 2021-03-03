@@ -1,0 +1,343 @@
+body{
+    margin: auto;
+}
+
+/* HEADER START */
+
+header{
+    position: relative;
+}
+
+.head-bar .container-head{ position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 9;
+    padding: 30px 0;
+    
+}
+.container-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.head-logo{
+    padding-left: 150px;
+}
+
+.head-logo img{
+    height: 40px;
+
+}
+
+.content-head{
+    padding-right: 200px;
+}
+
+.content-head ul{
+    display: flex;
+}
+
+.content-head li{
+    list-style: none;
+    padding: 10px;
+}
+
+.content-head a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.content-head a:hover,.content-head a.active{
+    border: 1px solid red;
+    background: transparent;
+}
+
+/*-----------------*/
+/*.img-header{
+    background:url('images/2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    margin-top: -95px;
+}
+
+.flex-caption{
+    margin: 0px;
+    margin-top: -200px;
+}
+.flex-head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.flex-p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}*/
+
+.flex-caption{
+    margin-top: 0px;
+
+}
+
+/* HEADER END */
+
+
+/* MAIN SECTION 3  START */
+.main-section3{
+    background-color: rgb(230, 33, 33);
+    padding: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+h1{
+    font-size: 38px;
+}
+
+p.important{
+    font-weight: lighter;
+    font-family: Arial;
+    font: 5px;
+    max-width: 75%;
+    padding: 0px 0px 30px 205px;
+}
+
+/* MAIN SECTION 3  END */
+
+
+/* MAIN ARTICLE 4  START */
+.main-article h2{
+    font-size: 33px;
+    text-align: center;
+}
+
+.service-box{
+    border: 1px solid transparent;
+    margin: 12px;
+    
+
+}
+
+.services-containers{
+    max-width: 1300px;
+    display: flex;
+    border: 1px solid transparent;
+    padding-left: 125px;
+    padding-bottom: 80px;
+
+}
+
+.service-logo{
+    padding-left:115px;
+}
+
+.service-title{
+    padding-left: 90px;
+}
+
+.service-desc{
+    color: gray;
+    text-align: center;
+}
+
+p.important-article{
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 14.5px;
+    max-width: 75%;
+    /*padding: 0px 0px 30px 215px;*/
+    text-align: center;
+    margin: auto;
+
+}
+
+/* MAIN ARTICLE 4  END */
+
+.main-article-fv{
+    padding: 50px 0;
+}
+.main-img-article img{
+    width: 740px;
+    height: 600px;
+
+
+
+}
+
+.main-article-f{
+    display: flex;
+    margin: auto;
+    border: 1px solid transparent;
+}
+
+.main-content-article{
+    background:rgba(226, 223, 223, 0.363);
+
+}
+
+.services-container{
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.services-box{
+    border: 1px solid transparent;
+
+}
+
+h2.local {
+    padding-left: 70px;
+    font-size: 25px;
+    padding-top: 25px;
+    font-weight: 800;
+}
+
+.main-article-fi{
+    display: flex;
+    max-height: 430px;
+    padding-bottom: 50px;
+    margin: 50px;
+    
+}
+
+.service-logo-fi{
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.main-content-article{
+    height: 600px;
+}
+
+.services-desc{
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 14px;
+    color: gray;
+
+}
+
+/*  MAIN ARTICLE 6  START */
+
+.local-fv{
+    font-size: 33px;
+    text-align: center;
+    border: 1px solid transparent;
+    
+}
+
+.container-brand{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.brand-box i{
+    font-size: 80px;
+}
+h4{
+    text-align: center;
+    
+}
+
+.container-quote{
+    padding-bottom: 50px;
+    
+}
+
+/* -------------------------------------------- MAIN ARTICLE 6  END --------------------------------------------------------*/
+
+
+/*  -----------------------------------------------------FOOTER START ------------------------------------------------------ */
+
+.footer-box{
+    background-color: black;
+}
+
+.footer-box-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;   
+    padding: 50px 100px 120px 100px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box-first{
+    border: 1px solid transparent;
+}
+
+.rn-box{
+    padding-bottom: 5px;
+    color: gray;
+    max-width: 300px;
+    border: 1px solid transparent;
+    margin: auto;
+
+}
+
+.box-first h5{
+    color: red;
+}
+
+.links-a a{
+    color: gray;
+    text-decoration: none;
+    border: 1px solid  transparent;
+
+}
+
+
+.last-footer{
+    color: white;
+    padding-left: 150px;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.last-footer cite{
+    color:red;
+    font-style: normal;
+}
+
+.last-footer-s{
+
+    margin-right: 150px;
+}
+
+.last-footer-f{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.last-footer-s  i {
+    border: 1px solid gray;
+    font-size: 30px;
+    margin: 5px;
+    color: red;
+    box-sizing:content-box;
+    background: #000;
+    
+}
+/*  ---------------------------------------------------------FOOTER END -----------------------------------------------------*/

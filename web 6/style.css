@@ -45,6 +45,7 @@ a{
 
 .services-containers{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -124,4 +125,15 @@ aside ul a {
 aside img{
     width:100%;
 
+}
+
+
+@media screen and (max-width:850px){
+    .service-box{
+        padding: 10px;
+        flex-basis: 32%;
+        max-width: 370px;
+    aside{
+        flex: 0 0 30vw;
+    }
 }
