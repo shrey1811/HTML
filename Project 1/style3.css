@@ -1,0 +1,202 @@
+body{
+    margin: auto;
+}
+
+/* HEADER START */
+
+.container-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+.head-logo{
+    padding-left: 150px;
+}
+
+.head-logo img{
+    height: 40px;
+
+}
+
+.content-head{
+    padding-right: 200px;
+}
+
+.content-head ul{
+    display: flex;
+}
+
+.content-head li{
+    list-style: none;
+    padding: 10px;
+}
+
+.content-head a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.content-head a:hover,.content-head a.active{
+    border: 1px solid red;
+    background: #000;
+}
+
+/*-----------------*/
+.img-header{
+    background:url('images/2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+
+}
+
+.flex-caption{
+    margin: 0px;
+}
+.flex-head{
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(230, 33, 33);
+    margin-top: -100px;
+    margin-left: 150px;
+
+}
+
+
+
+/* HEADER END */
+
+/* ------------------------------------------------container Start -------------------------------------------------*/
+.container{
+    display: flex;
+    max-width: 1150px;
+    border: 1px solid transparent;
+    margin-top: 90px;
+    
+}
+
+.container .container-box{
+    border: 1px solid transparent;
+    padding: 10px;
+    flex-basis: 100%;
+
+}
+
+.container .container-box .container-img img{
+    width: 100%;
+}
+
+.container .container-box .container-h{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container .container-box .container-p{
+    color: gray;
+}
+/* ------------------------------------------------container END -------------------------------------------------*/
+/* ------------------------------------------------main start ----------------------------------------------------*/
+.full-box{
+    display: flex;
+    max-width: 1150px;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(192, 188, 188);
+    margin: auto;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.full-box .box-fi{
+    flex-basis: 33%;
+    display: flex;
+    padding: 20px;
+}
+.full-box .box-fi p{
+    color: gray;
+    font-size: 15px;
+}
+
+.full-box .box-fi h2{
+    font-size: 20px;
+}
+/* ------------------------------------------------main ENd ----------------------------------------------------*/
+/*  -----------------------------------------------------FOOTER START ------------------------------------------------------ */
+
+.footer-box{
+    background-color: black;
+}
+
+.footer-box-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;   
+    padding: 50px 100px 120px 100px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box-first{
+    border: 1px solid transparent;
+}
+
+.rn-box{
+    padding-bottom: 5px;
+    color: gray;
+    max-width: 300px;
+    border: 1px solid transparent;
+    margin: auto;
+
+}
+
+.box-first h5{
+    color: red;
+}
+
+.links-a a{
+    color: gray;
+    text-decoration: none;
+    border: 1px solid  transparent;
+
+}
+
+
+.last-footer{
+    color: white;
+    padding-left: 150px;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.last-footer cite{
+    color:red;
+    font-style: normal;
+}
+
+.last-footer-s{
+
+    margin-right: 150px;
+}
+
+.last-footer-f{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.last-footer-s  i {
+    border: 1px solid gray;
+    font-size: 30px;
+    margin: 5px;
+    color: red;
+    box-sizing:content-box;
+    background: #000;
+    
+}
+/*  ---------------------------------------------------------FOOTER END -----------------------------------------------------*/
