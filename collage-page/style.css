@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+/* container */
+.container{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.container .area  {
+    flex-basis: 33.33%;
+    padding: 5px;
+}
+.image img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container .area {
+      flex-basis: 50%;
+    }
+  }
+
+
+@media screen and (max-width: 576px) {
+    .container .area  {
+      flex-basis: 100%;
+    }
+  }

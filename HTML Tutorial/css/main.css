@@ -1,0 +1,279 @@
+/*
+Project Name: 
+Author:
+1. Global
+2. Header/Navigation
+3. banner
+4. Info Text
+*/
+:root {
+    --primary: #0385dc;
+    --secondary: #666;
+}
+* {
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+[data-border]{
+    border: solid 1px red;
+}
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 26px;
+    font-weight: normal;
+}
+h4{
+    font-size: 26px;
+    font-weight: normal;
+}
+h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+p{
+    font-size: 14px;
+    color: var(--secondary);
+    line-height: 1.5;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* 2. Header started */
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: bold;
+    color: var(--primary);
+    font-size: 28px;
+    text-decoration: none;
+}
+ul.topnav{
+    display: flex;
+    margin: 40px 0;
+}
+ul.topnav li{
+    margin: 10px;
+}
+ul.topnav li:last-child{
+    margin-right: 0;
+}
+ul.topnav li:last-child a{
+    padding-right: 0;
+}
+ul.topnav li a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+ul.topnav li a.active, ul.topnav li a:hover{
+    color: var(--primary);
+}
+/* Header Ended */
+
+/* 3 Banner start */
+.banner{
+    background: url(../image/banner.png) center no-repeat;
+    background-size: contain;
+    height: 658px;
+}
+/* Banner end */
+/* Info Text started */
+.infotextbg{
+    background: var(--primary);
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+.infotextbg p{
+    color: #fff;
+}
+/* Info Text end */
+/* Our Services started */
+.our_services_text{
+    text-align: center;
+    margin-top: 50px;
+}
+.our_services_text h2{
+    font-weight: normal;
+    font-size: 30px;
+    color: var(--secondary);
+}
+.our_services_section{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.our_services_section .box{
+    text-align: center;
+    padding: 25px;
+    background: #efefef;
+    border-top: solid 4px var(--primary);
+    width: 31%;
+    margin: 30px 0;
+    position: relative;
+}
+.our_services_section .box i{
+    background: var(--primary);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: -25px;
+    font-size: 30px;
+}
+/* Our Services end */
+/* about started */
+.about{
+    display: flex;
+}
+.about > div{
+    width: 50%;
+}
+.about img{
+    width: 100%;
+}
+.about .about_text{
+    padding:80px 100px;
+    background: #efefef;
+}
+.about .about_text h4{
+    margin: 0 0 30px;
+}
+.about .about_text p{
+    margin-bottom: 30px;
+}
+.about .about_text a.button{
+    border: solid 1px var(--primary);
+    font-size: 14px;
+    padding:10px 16px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    letter-spacing: 1px;
+}
+.about .about_text a.button:hover{
+    color: #fff;
+    background-color: var(--primary);
+}
+/* about end */
+/* content video started */
+.content_video{
+    display: flex;
+    padding:50px 0;
+    justify-content: space-between;
+}
+.content_video > div{
+    width: 48%;
+}
+.content_video iframe{
+    width: 100%;
+}
+/* content video end */
+/* Portflio started */
+.portflio_content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.portfolio_tiles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.portfolio_tiles .tile{
+    height: 280px;
+    width: calc(25% - 1px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0 1px 1px 0;
+    position: relative;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.portfolio_tiles .tile:hover{
+    background-size: 120%;
+}
+.portfolio_tiles .tile:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    transition: all .5s ease-in-out;
+}
+.portfolio_tiles .tile:hover:after{
+    background: rgba(60, 60, 60, 0.742);
+}
+.portfolio_tiles .tile::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -15px;
+    margin-top: 100%;
+    width: 30px;
+    height: 30px;
+    background: url(../image/loupe.svg) no-repeat center;
+    z-index: 1;
+    transition: margin-top .5s ease-in-out;
+}
+.portfolio_tiles .tile:hover:before{
+    margin-top: -15px;
+}
+/* POrtflio end */
+/* Our team started */
+.our_team{
+    text-align: center;
+}
+.our_team_tiles{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.our_team_tiles h4{
+    margin: 20px 0 10px;
+    font-size: 20px;
+}
+.our_team_tiles > div{
+    width: 22%;
+}
+.our_team_tiles > div img{
+    width: 100%;
+}
+.our_team i{
+    color: var(--primary);
+    border: var(--primary) solid 1px;
+    padding:5px 10px;
+    cursor: pointer;
+}
+/* Our team ended */
